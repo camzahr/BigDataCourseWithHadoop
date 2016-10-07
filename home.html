@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My First MapReduce Function</title>
+        <meta charset="utf-8">
+
+        <style type="text/css">
+       
+        textarea {
+            width: 50%;
+            height: 100px;
+        }
+        
+        </style>
+
+        <script src="MapReduce.js"></script>
+
+    </head>
+
+    <body>
+        
+         
+Texte pour la fonction Map :<br>
+  <textarea id="mapInput">
+Bonjour je m'appelle Jérémy Je
+Et je suis content Et
+De vous rencontrer</textarea>
+<br>
+
+Texte pour la fonction Reduce :<br>
+  <textarea id="reduceInput">
+(Avant,1) (Avant,1) (Avant,1)
+(Love,1) (Love,1)</textarea>
+<br>
+  <button onclick="myFunction()">GO</button>
+  Votre résultat pour la fonction MAP : <br>
+    <div id="outputMap">
+
+    </div>
+    Votre résultat pour la fonction REDUCE : <br>
+    <div id="outputReduce">
+
+    </div>
+</body>
+</html>
